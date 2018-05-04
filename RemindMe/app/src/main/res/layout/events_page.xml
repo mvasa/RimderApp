@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.vasa.android.remindme.EventsActivity">
+
+    <TextView
+        android:id="@+id/event1"
+        android:layout_width="351dp"
+        android:layout_height="29dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:maxLines="2"
+        android:singleLine="false"
+        android:textColor="@color/black"
+        android:text="none"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.014" />
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Show Details"
+        app:layout_constraintBottom_toTopOf="@+id/event2"
+        app:layout_constraintEnd_toStartOf="@+id/priorityButton1"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/priorityButton1" />
+
+    <TextView
+        android:id="@+id/eventDetails"
+        android:layout_width="392dp"
+        android:layout_height="25dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="84dp"
+        android:maxLines="100"
+        android:singleLine="false"
+        android:text="Location: none Duration: none"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.025" />
+
+    <TextView
+        android:id="@+id/event2"
+        android:layout_width="354dp"
+        android:layout_height="28dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="120dp"
+        android:text="none"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/event3"
+        android:layout_width="355dp"
+        android:layout_height="32dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="208dp"
+        android:text="none"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/event4"
+        android:layout_width="358dp"
+        android:layout_height="31dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="8dp"
+        android:text="none"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.424"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.537" />
+
+    <TextView
+        android:id="@+id/event5"
+        android:layout_width="368dp"
+        android:layout_height="36dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:text="none"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.263"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.698" />
+
+    <TextView
+        android:id="@+id/event6"
+        android:layout_width="361dp"
+        android:layout_height="39dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:text="none"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.346"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.864" />
+
+    <Button
+        android:id="@+id/returnHomeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="148dp"
+        android:layout_marginTop="8dp"
+        android:text="Return to Select a Different Day"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Switch
+        android:id="@+id/switch2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:text="Show Details"
+        app:layout_constraintBottom_toTopOf="@+id/event3"
+        app:layout_constraintEnd_toStartOf="@+id/priorityButton2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/event2" />
+
+    <Switch
+        android:id="@+id/switch3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="20dp"
+        android:text="Show Details"
+        app:layout_constraintBottom_toBottomOf="@+id/priorityButton3"
+        app:layout_constraintEnd_toStartOf="@+id/priorityButton3"
+        app:layout_constraintHorizontal_bias="0.153"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/event3" />
+
+    <Switch
+        android:id="@+id/switch4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Show Details"
+        app:layout_constraintBottom_toTopOf="@+id/event5"
+        app:layout_constraintEnd_toStartOf="@+id/priorityButton4"
+        app:layout_constraintHorizontal_bias="0.349"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/event4" />
+
+    <Switch
+        android:id="@+id/switch5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Show Details"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/priorityButton6"
+        app:layout_constraintHorizontal_bias="0.145"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/priorityButton6"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Switch
+        android:id="@+id/switch6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Show Details"
+        app:layout_constraintBottom_toTopOf="@+id/event6"
+        app:layout_constraintEnd_toStartOf="@+id/priorityButton5"
+        app:layout_constraintHorizontal_bias="0.468"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/event5"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/priorityButton1"
+        android:layout_width="@dimen/priorityButtonWidth"
+        android:layout_height="36dp"
+        android:textSize="@dimen/priorityButtonTextSize"
+        android:background="@color/white"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="64dp"
+        android:layout_marginTop="8dp"
+        android:text="Change Color"
+        app:layout_constraintBottom_toTopOf="@+id/event2"
+        app:layout_constraintEnd_toStartOf="@+id/editButton1"
+        app:layout_constraintTop_toBottomOf="@+id/event1" />
+
+    <Button
+        android:id="@+id/editButton1"
+        android:layout_width="@dimen/editButtonWidth"
+        android:layout_height="36dp"
+        android:background="@color/white"
+        android:textSize="@dimen/editButtonTextSize"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Edit Event"
+        app:layout_constraintBottom_toTopOf="@+id/event2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/event1" />
+
+    <Button
+        android:id="@+id/priorityButton2"
+        android:layout_width="@dimen/priorityButtonWidth"
+        android:layout_height="36dp"
+        android:background="@color/white"
+        android:textSize="@dimen/priorityButtonTextSize"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="56dp"
+        android:layout_marginTop="8dp"
+        android:text="Change Color"
+        app:layout_constraintBottom_toTopOf="@+id/event3"
+        app:layout_constraintEnd_toStartOf="@+id/editButton2"
+        app:layout_constraintTop_toBottomOf="@+id/event2" />
+
+    <Button
+        android:id="@+id/editButton2"
+        android:layout_width= "@dimen/editButtonWidth"
+        android:layout_height="36dp"
+        android:background="@color/white"
+        android:textSize="@dimen/editButtonTextSize"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="8dp"
+        android:text="Edit Event"
+        app:layout_constraintBottom_toTopOf="@+id/event3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/event2" />
+
+    <Button
+        android:id="@+id/priorityButton3"
+        android:layout_width="@dimen/priorityButtonWidth"
+        android:layout_height="36dp"
+        android:background="@color/white"
+        android:textSize="@dimen/priorityButtonTextSize"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="72dp"
+        android:layout_marginTop="12dp"
+        android:text="Change Color"
+        app:layout_constraintBottom_toTopOf="@+id/event4"
+        app:layout_constraintEnd_toStartOf="@+id/editButton3"
+        app:layout_constraintTop_toBottomOf="@+id/event3" />
+
+    <Button
+        android:id="@+id/editButton3"
+        android:layout_width="@dimen/editButtonWidth"
+        android:layout_height="36dp"
+        android:background="@color/white"
+        android:textSize="@dimen/editButtonTextSize"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="20dp"
+        android:text="Edit Event"
+        app:layout_constraintBottom_toBottomOf="@+id/priorityButton3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/event3" />
+
+    <Button
+        android:id="@+id/priorityButton4"
+        android:layout_width="@dimen/priorityButtonWidth"
+        android:layout_height="36dp"
+        android:background="@color/white"
+        android:textSize="@dimen/priorityButtonTextSize"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="44dp"
+        android:text="Change Color"
+        app:layout_constraintBottom_toTopOf="@+id/event5"
+        app:layout_constraintEnd_toStartOf="@+id/editButton4"
+        app:layout_constraintTop_toBottomOf="@+id/event4" />
+
+    <Button
+        android:id="@+id/editButton4"
+        android:layout_width="@dimen/editButtonWidth"
+        android:layout_height="36dp"
+        android:background="@color/white"
+        android:textSize="@dimen/editButtonTextSize"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginTop="8dp"
+        android:text="Edit Event"
+        app:layout_constraintBottom_toTopOf="@+id/event5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/event4" />
+
+    <Button
+        android:id="@+id/priorityButton5"
+        android:layout_width="@dimen/priorityButtonWidth"
+        android:layout_height="36dp"
+        android:textSize="@dimen/priorityButtonTextSize"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="72dp"
+        android:layout_marginTop="4dp"
+        android:text="Change Color"
+        android:background="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/event6"
+        app:layout_constraintEnd_toStartOf="@+id/editButton5"
+        app:layout_constraintTop_toBottomOf="@+id/event5"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/editButton5"
+        android:layout_width="@dimen/editButtonWidth"
+        android:layout_height="36dp"
+        android:background="@color/white"
+        android:textSize="@dimen/editButtonTextSize"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="32dp"
+        android:text="Edit Event"
+        app:layout_constraintBottom_toTopOf="@+id/event6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/event5" />
+
+    <Button
+        android:id="@+id/priorityButton6"
+        android:layout_width="@dimen/priorityButtonWidth"
+        android:layout_height="36dp"
+        android:background="@color/white"
+        android:textSize="@dimen/priorityButtonTextSize"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="64dp"
+        android:layout_marginTop="8dp"
+        android:text="Change Color"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/editButton6"
+        app:layout_constraintTop_toBottomOf="@+id/event6"
+        app:layout_constraintVertical_bias="0.209" />
+
+    <Button
+        android:id="@+id/editButton6"
+        android:layout_width="@dimen/editButtonWidth"
+        android:layout_height="36dp"
+        android:background="@color/white"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="8dp"
+        android:text="Edit Event"
+        android:textSize="@dimen/editButtonTextSize"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/event6"
+        app:layout_constraintVertical_bias="0.155" />
+
+
+
+</android.support.constraint.ConstraintLayout>
